@@ -3,6 +3,8 @@ import math
 import numpy
 import smtplib, ssl
 from playerinput import Frame
+from mailchimp3 import MailChimp
+
 
 class Match:
     person1 = ''
@@ -74,6 +76,15 @@ class tournamentRunner:
             server.sendmail(sender_email, receiver_email, message)
 
 
+    def subscribe(self,email,name):
+        client = MailChimp(mc_api='YOUR_API_KEY', mc_user='YOUR_USERNAME')
+        client.lists.members.create('3242312', {
+            'email_address': email,
+            'status': 'subscribed',
+            'merge_fields': {
+                'FNAME': name,
+            },
+        })
 
 class round:
     players = []
