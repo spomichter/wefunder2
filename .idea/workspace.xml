@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62e598a3-9f65-4bb9-beb2-8be4a9acb510" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tournament.py" beforeDir="false" afterPath="$PROJECT_DIR$/tournament.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
-              <caret line="176" column="70" selection-start-line="176" selection-start-column="70" selection-end-line="176" selection-end-column="70" />
+            <state relative-caret-position="139">
+              <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
+            <state relative-caret-position="901">
               <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -93,10 +93,10 @@
         <option value="$PROJECT_DIR$/tourney.html" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/playerinput.py" />
         <option value="$PROJECT_DIR$/tournament.py" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -165,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tournament">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wefunder/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -240,9 +240,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Python.tournament" />
         <item itemvalue="Python.playerinput" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Python.test" />
         <item itemvalue="JavaScript Debug.tourney.html" />
       </list>
@@ -258,12 +258,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551035454537</updated>
-      <workItem from="1551035455846" duration="9515000" />
+      <workItem from="1551035455846" duration="9726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9515000" />
+    <option name="totallyTimeSpent" value="9726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -378,13 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="176" column="70" selection-start-line="176" selection-start-column="70" selection-end-line="176" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -401,11 +394,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tournament.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
+        <state relative-caret-position="901">
           <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
         </state>
       </provider>
     </entry>
