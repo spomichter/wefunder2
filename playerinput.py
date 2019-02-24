@@ -1,5 +1,7 @@
 import wx
-class ExampleFrame(wx.Frame):
+
+class Frame(wx.Frame):
+    players = []
     def __init__(self, parent):
         wx.Frame.__init__(self, parent)
 
@@ -7,7 +9,7 @@ class ExampleFrame(wx.Frame):
         self.quote = wx.StaticText(self.panel, label="SF Office Sports Tournament")
         self.result = wx.StaticText(self.panel, label="")
         self.result.SetForegroundColour(wx.RED)
-        self.button = wx.Button(self.panel, label="Save")
+        self.button = wx.Button(self.panel, label="Submit")
         self.lblname = wx.StaticText(self.panel, label="Tournament participants: (seperated with commas)")
         self.editname = wx.TextCtrl(self.panel, size=(140, -1))
 
@@ -35,9 +37,11 @@ class ExampleFrame(wx.Frame):
         self.button.Bind(wx.EVT_BUTTON, self.OnButton)
 
     def OnButton(self, e):
-        players = self.editname.GetValue()
+        self.players = self.editname.GetValue()
+
+
 
 app = wx.App(False)
-frame = ExampleFrame(None)
+frame = Frame(None)
 frame.Show()
 app.MainLoop()
